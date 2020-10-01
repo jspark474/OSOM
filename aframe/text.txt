@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+         <script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
+         <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+        <title>Aframe Project</title>
+    </head>
+
+     <body>
+        <a-scene>
+        <a-box position="0 3 -10" src="images/dd.png"></a-box>
+<!--
+            <a-box material="shader: gradient; topColor: 255 0 0; bottomColor: 0 121 255;" color="blue" position="0 3 -10" scale="2 2 2" animation="property:position;
+                       from:0 3 -10;
+                       to: 1 3 -10;
+                       dur: 1000;
+                        easing: linear;
+                       
+                        dir: alternate;
+                       loop: true;
+                        "></a-box>
+            <a-sphere position="5 3 -10" color="#f4ff94" src="images/paper_texture.jpg" shader="flat" 
+                
+            animation="property: material.color;
+                     from: #f4ff94;
+                     to:#69e091;
+                     dur: 2000;
+                     easing: linear;
+                     dir: alternate;
+                    loop:true;"
+                    ></a-sphere>
+            <a-entity position="0 0 -5">
+                <a-octahedron position="-4 4 -15" color="#394d3e" radius="1"></a-octahedron>
+                <a-octahedron position="-4 3 -15" color="#394d3e" radius="1"></a-octahedron>
+                <a-octahedron position="-3 2 -15" color="#394d3e" radius="1"></a-octahedron>
+                 <a-octahedron position="-5 2 -15" color="#394d3e" radius="1"></a-octahedron>
+             </a-entity>
+            <a-sky color="skyblue"></a-sky>
+            <a-entity position="0 2.25 -15" particle-system="preset:snow;particleCount:5000;duration:NaN;maxAge:20;positionSpread:100 100 100;rotationAngle:3.14;accelerationValue:0 0 0;accelerationSpread:0.2 0 0.2;velocityValue:0 8 0;velocitySpread:2 0 2;color:#FFFFFF;texture:https://cdn.rawgit.com/IdeaSpaceVR/aframe-particle-system-component/master/dist/images/smokeparticle.png"></a-entity>
+
+            
+            <a-obj-model position="5 0 -100" src="assets/tree/arvore_lowpoly.obj" mtl="assets/tree/arvore_lowpoly.mtl"></a-obj-model>
+            
+            <a-gltf-model src="assets/glTF/wooden%20crate.glb"></a-gltf-model>
+-->
+        </a-scene>
+     </body>
+ </html>
